@@ -1,4 +1,29 @@
 .App {
   font-family: sans-serif;
+}
 
+table {
+  border-spacing: 0;
+}
+
+th {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 1.5rem;
+}
+
+td {
+  padding: 1.5rem;
+}
+
+tr:nth-child(2n) {
+  background-color: #cccccc;
+}
+
+thead tr {
+  background-color: #eeeeee;
+}
+
+tr[class*="conflict-with-"] {
+  color: red;
 }
